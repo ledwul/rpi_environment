@@ -1,0 +1,9 @@
+[Unit]
+Description=Ledwul LED service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/ledwul_led_service.sh
+
+[Install]
+WantedBy=multi-user.target

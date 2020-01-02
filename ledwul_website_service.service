@@ -1,0 +1,9 @@
+[Unit]
+Description=Ledwul website service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/ledwul_website_service.sh
+
+[Install]
+WantedBy=multi-user.target
